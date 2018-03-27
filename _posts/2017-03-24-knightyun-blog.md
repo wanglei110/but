@@ -10,6 +10,7 @@ comments: 1
 
 This is my blog testing content.
 
+<hr/>
 
 <img src="https://i.loli.net/2018/03/23/5ab4f17c91877.jpg" alt="failed" width="100px">
 
