@@ -157,7 +157,11 @@ cond(no)->op
 （貌似专业版需要收取一定dollars$，需要序列号自行baidu。）
 2.  **Markpad**：详情前往 [官网](http://markpad.fluid.impa.br/)。
 （推荐使用，Microsoft Store也有，完全免费，支持及时效果浏览。）
-3. **CSDN博客编辑器**：本网站内置编辑器。（这篇文件就是这样写出来的-_-）
+3. **CSDN博客编辑器**：CSDN网站内置编辑器。（这篇文件就是这样写出来的-_-)
+
+4. **Harropad**: [官网](http://pad.haroopress.com/user.html)
+
+5. **Retext**: 简单强大的文本编辑器，可控制输出格式：pdf, html等，仅支持Linux（推荐）.[下载](https://github.com/retext-project/retext)
 
 ---------
 
