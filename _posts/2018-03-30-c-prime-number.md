@@ -3,6 +3,7 @@ title: C语言统计素数
 layout: post
 categories: C语言
 tags: C语言
+excerpt: 源码及运行结果
 ---
 ### 源码如下：
 
