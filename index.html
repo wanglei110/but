@@ -4,8 +4,8 @@ css: ["index.css"]
 ---
 <div class="row">
   {% for post in paginator.posts %}
+  <a href="{{post.url | prepend: site.baseurl}}">
   <div class="col s12">
-	<a href="{{post.url | prepend: site.baseurl}}">
     <div class="card hoverable">
       <div class="card-content">
         <span id="post-title" class="card-title">{{post.title}}</span>
@@ -21,8 +21,8 @@ css: ["index.css"]
         </a>
       </div>
     </div>
-	</a>
   </div>
+  </a>
   {% endfor %}
   <div class="col s12 center-align">
     <ul class="pagination">
