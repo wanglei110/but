@@ -3,9 +3,8 @@ title: C语言统计闰年
 layout: post
 categories: C语言
 tags: C语言
-excerpt: none content
+excerpt: 源码及运行结果
 ---
-
 ### 源码如下：
 
 ```
