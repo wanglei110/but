@@ -1,5 +1,7 @@
     </main>
+
     <footer class="page-footer teal">
+
       <div class="container">
         <div class="row">
           <div class="col s12">
@@ -8,12 +10,18 @@
           </div>
         </div>
       </div>
+
+      <div class="footer-message">
+      	<p>&nbsp;勤奋的程序猿，用心敲写明天</p>
+      </div>  	
       <div class="footer-copyright">
         <div class="container">
-          &#xA9; {{"now" | date: "%Y"}} {{site.title}}. All rights reserved. Powered by <a href="https://github.com/knightyun/knightyun.github.io">knightyun</a>.
+          &#xA9; {{"now" | date: "%Y"}} {{site.title}}. All rights reserved. Powered by <a href={{site.url}}>knightyun</a>.
         </div>
       </div>
+
     </footer>
+
     <script src="//code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
     {% for js in layout.js %}
