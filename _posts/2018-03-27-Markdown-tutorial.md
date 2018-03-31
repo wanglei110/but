@@ -3,8 +3,8 @@ title: Markdown简明教程
 layout: post
 categories: markdown
 tags: markdown
+excerpt: 简要markdown语法
 ---
-
 ---------
 
 ## 目录 <span id="home">
