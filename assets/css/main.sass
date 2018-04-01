@@ -1,6 +1,17 @@
 ---
 ---
 // Overall
+@font-face
+  font-family: 'ch-kaiti'
+  src: url('/assets/fonts/ch-kaiti.eot')
+  src: url('/assets/fonts/ch-kaiti.eot?#iefix') format('embedded-opentype')
+    url('/assets/fonts/ch-kaiti.woff') format('woff')
+    url('/assets/fonts/ch-kaiti.woff2') format('woff2')
+    url('/assets/fonts/ch-kaiti.ttf') format('truetype')
+    url('/assets/fonts/ch-kaiti.svg#ch-kati') format('svg')
+  font-weight: normal
+  font-style: normal
+
 body
   display: flex
   min-height: 100vh
@@ -17,11 +28,12 @@ a:active
 
 main
   flex: 1 0 auto
-  font-family: "华文新魏"
+
 
 header,
 main,
 footer
+  font-family: 'ch-kaiti'
   padding-left: 300px
 
 .container
