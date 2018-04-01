@@ -110,7 +110,7 @@ github pages 功能依赖于github账号，没有的话先去[官网][gitreg]注
 
 #### Git基础 <span id="4.1">
 前面说到向自己的github仓库上传文件，我们使用“git”这个工具，进行拉取、克隆、提交等一系列操作，Linux系统应该是自带，官网下载地址：<https://git-scm.com/>。
-并且需要掌握一些git基本操作，如 `git commit` , `git push`, `git clone` 等，这里有很完整的教程：<https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000>.
+并且需要掌握一些git基本操作，如 `git commit` , `git push`, `git clone` 等，这里有很完整的教程：[Git语法说明][git-full].
 
 #### git配置 <span id="4.2">
 
@@ -170,7 +170,7 @@ ssh-keygen -t rsa -C "*your_email@youremail.com*"
 
 ----------------------------
 可以查看变化文件，甚至文件内变化的内容，commit 后点击 fetch 按钮提交
-![这里写图片描述](https://img-blog.csdn.net/20180401085504366?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![change](https://img-blog.csdn.net/20180401085504366?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
 >###### 软件功能不算复杂，自己摸索一会就会了，图形界面的软件使得一些命令行的操作变得容易、友好。
 
 ### 创建本地仓库 <span id="5">
@@ -229,10 +229,10 @@ cmd命令行输入 `gem` 检查是否安装成功：
 #### Markdown基础 <span id="7.1">
 Jekyll使用[Markdown][md]语言书写博客，markdown是一种简单易读的标记性语言，不同于 `html`，大量的标签不易于阅读，写着也麻烦，用markdown写博客很合适。
 
-首先你需要了解一些markdown语法，这里有完整版语法说明：<https://blog.csdn.net/KNIGH_YUN/article/details/79733814>，了解一些基础后就可以开始写博客了。
+首先你需要了解一些markdown语法，这里有完整版语法说明：[Markdown语法说明][markdown-full]，了解一些基础后就可以开始写博客了。
 
 #### 工具介绍 <span id="7.2">
-<https://blog.csdn.net/KNIGH_YUN/article/details/79718481>这篇文章最后有介绍一些好用的markdown编辑器，自行选择。
+这篇文章：[Markdown简明语法][markdown-tutorial]最后有介绍一些好用的markdown编辑器，自行选择。
 不过每次都用编辑器写好 `.md` 文件然后用 git 上传到 github 根目录下的 **`_post`** 文件夹好像很繁琐，Jekyll官方提供了一款方便的博客编辑器，方便书写、预览、上传，官网链接：<http://jekyllwriter.com/>，三种系统版本都有。接下来简单介绍一些使用：
 
 安装后主界面：
@@ -301,12 +301,15 @@ markdown的图片插入方式 `![title](http://xxx.com/xxx.png/)` 是没办法�
 
 >最后搜索: `"site:你的域名"` 有结果就成功了
 
-最后就开始自己的博客生涯吧。
+开始自己的博客生涯吧。
 
 ----------------
 [github]: (https://baike.baidu.com/item/github/10145341)
 [svn]: https://baike.baidu.com/item/SVN/3311103?fr=aladdin
 [gitreg]: https://github.com/
 [md]: https://baike.baidu.com/item/markdown/3245829?fr=aladdin
+[git-full]: https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000
+[markdown-full]: https://blog.csdn.net/KNIGH_YUN/article/details/79733814
+[markdown-tutorial]: <https://blog.csdn.net/KNIGH_YUN/article/details/79718481>
 
 ### 返回[顶部](#home)
