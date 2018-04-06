@@ -5,6 +5,11 @@ js: ["post.js"]
 ---
 <div id="post-info">
   <h3>{{page.title}}</h3>
+  <!--熊掌号-->
+  <div style="padding-left: 17px; padding-right: 17px;">
+    <script>cambrian.render('head')</script>
+  </div>
+  <!--end-->
   <ul class="collapsible hoverable" data-collapsible="accordion">
     <li>
       <div class="collapsible-header">
@@ -40,6 +45,11 @@ js: ["post.js"]
   <div class="col s12">
     {{ content }}
   </div>
+  <!--熊掌号-->
+  <div style="padding-left: 17px; padding-right: 17px;">
+    <script>cambrian.render('tail')</script>
+  </div>
+  <!--end-->
 </div>
 {% if site.disqus_shortname and page.comments %}
 <div id="disqus_thread"></div>
