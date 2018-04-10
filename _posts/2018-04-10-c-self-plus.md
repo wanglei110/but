@@ -1,7 +1,7 @@
 ---
 title: C语言自增自减运算辨析
 layout: post
-categories: C语言 运算
+categories: C语言
 tags: C语言 自增运算 自减运算
 excerpt: C语言自增与自减运算辨析
 ---
