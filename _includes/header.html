@@ -1,89 +1,105 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="baidu-site-verification" content="X2hsRcRCeh" />
-    <meta name="360-site-verification" content="fa6ca3a9a0330e9cecabee0a9fe1d52a" />
-    <title>
-      {% if page.title %}
-      {{ page.title | escape }}
-      {% else %}
-      {{ site.title | escape }}
-      {% endif %}
-    </title>
-    <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/assets/res/favicon.ico">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
-    <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/stylesheet.css">
-    {% for css in layout.css %}
-    {% if css contains "//" %}
-    <link rel="stylesheet" href="{{css}}">
-    {% else %}
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{css}}">
-    {% endif %}
-    {% endfor %}
-    {% for css in page.css %}
-    {% if css contains "//" %}
-    <link rel="stylesheet" href="{{css}}">
-    {% else %}
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{css}}">
-    {% endif %}
-    {% endfor %}
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/syntax.css">
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{site.baseurl}}/feed.xml">
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{site.baseurl}}/sitemap.xml">
-    {% seo title=false %}
-    <script>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="baidu-site-verification" content="X2hsRcRCeh" />
+	<meta name="360-site-verification" content="fa6ca3a9a0330e9cecabee0a9fe1d52a" />
+	<title>
+		{% if page.title %}
+		{{ page.title | escape }}
+		{% else %}
+		{{ site.title | escape }}
+		{% endif %}
+	</title>
+	<link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/assets/res/favicon.ico">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+	<link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
+	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/stylesheet.css">
+	{% for css in layout.css %}
+	{% if css contains "//" %}
+	<link rel="stylesheet" href="{{css}}">
+	{% else %}
+	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{css}}">
+	{% endif %}
+	{% endfor %}
+	{% for css in page.css %}
+	{% if css contains "//" %}
+	<link rel="stylesheet" href="{{css}}">
+	{% else %}
+	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{css}}">
+	{% endif %}
+	{% endfor %}
+	<link rel="stylesheet" href="{{site.baseurl}}/assets/css/syntax.css">
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="{{site.baseurl}}/feed.xml">
+	<link rel="sitemap" type="application/xml" title="Sitemap" href="{{site.baseurl}}/sitemap.xml">
+	{% seo title=false %}
+	<script>
 		var _hmt = _hmt || [];
 		(function() {
-  			var hm = document.createElement("script");
-  			hm.src = "https://hm.baidu.com/hm.js?71e61d0c25aa13c0499c9a5ace61ad5d";
-  			var s = document.getElementsByTagName("script")[0]; 
-  			s.parentNode.insertBefore(hm, s);
+			var hm = document.createElement("script");
+			hm.src = "https://hm.baidu.com/hm.js?71e61d0c25aa13c0499c9a5ace61ad5d";
+			var s = document.getElementsByTagName("script")[0]; 
+			s.parentNode.insertBefore(hm, s);
 		})();
 	</script>
 	<!--熊掌号-->
 	<script src="//msite.baidu.com/sdk/c.js?appid=1596010848630655"></script>
-  </head>
-  <body>
-    <script>(function(){
-      var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?9a9ed8ab4ddeae919346a010fbb8884f":"https://jspassport.ssl.qhimg.com/11.0.1.js?9a9ed8ab4ddeae919346a010fbb8884f";
-      document.write('<script src="' + src + '" id="sozz"><\/script>');
-      })();
-    </script>
-    <header>
-      <nav class="top-nav">
-        <div class="nav-wrapper">
-          <div class="container">
-            <a class="page-title" href="{{site.baseurl}}/">{{site.title}}</a>
-            <p class="head-message">学习&nbsp;&nbsp;总结&nbsp;&nbsp;分享&nbsp;&nbsp;提升</p>
-          </div>
-        </div>
-      </nav>
-      <div class="container">
-        <a href="#" data-activates="slide-out" class="button-collapse top-nav full hide-on-large-only">
-          <i class="material-icons">menu</i>
-        </a>
-      </div>
-      <ul id="slide-out" class="side-nav fixed">
-        <li>
-          <div class="userView">
-            <div class="background"></div>
-            <a href="{{site.github_profile}}" target="_blank"><img class="circle z-depth-2" src="{{site.baseurl}}/assets/res/user.png"></a>
-            <span class="white-text name">{{site.user}}</span>
-            <span class="white-text email">{{site.user_email}}</span>
-          </div>
-        </li>
-        <li><a class="waves-effect" href="{{site.baseurl}}/"><i class="material-icons">home</i>Home</a></li>
-        <li><a class="waves-effect" href="{{site.baseurl}}/projects"><i class="material-icons">description</i>Projects</a></li>
-        <li><a class="waves-effect" href="{{site.baseurl}}/categories"><i class="material-icons">sort</i>Categories</a></li>
-        <li><a class="waves-effect" href="{{site.baseurl}}/tags"><i class="material-icons">label</i>Tags</a></li>
-        <li><a class="waves-effect" href="{{site.baseurl}}/feed.xml" target="_blank"><i class="material-icons">rss_feed</i>RSS</a></li>
-        <li><div class="divider"></div></li>
-        <li><a class="waves-effect" href="{{site.baseurl}}/about"><i class="material-icons">person</i>About</a></li>
-        <li><a class="waves-effect" href="{{site.baseurl}}/contact"><i class="material-icons">email</i>Contact</a></li>
-      </ul>
-    </header>
-    <main>
+	<!--百度资源自动提交-->
+	<script>
+		(function(){
+			var bp = document.createElement('script');
+			var curProtocol = window.location.protocol.split(':')[0];
+			if (curProtocol === 'https') {
+				bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+			}
+			else {
+				bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+			}
+			var s = document.getElementsByTagName("script")[0];
+			s.parentNode.insertBefore(bp, s);
+		})();
+	</script>
+	<!--end-->
+</head>
+<body>
+	<script>(function(){
+		var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?9a9ed8ab4ddeae919346a010fbb8884f":"https://jspassport.ssl.qhimg.com/11.0.1.js?9a9ed8ab4ddeae919346a010fbb8884f";
+		document.write('<script src="' + src + '" id="sozz"><\/script>');
+	})();
+</script>
+<header>
+	<nav class="top-nav">
+		<div class="nav-wrapper">
+			<div class="container">
+				<a class="page-title" href="{{site.baseurl}}/">{{site.title}}</a>
+				<p class="head-message">学习&nbsp;&nbsp;总结&nbsp;&nbsp;分享&nbsp;&nbsp;提升</p>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<a href="#" data-activates="slide-out" class="button-collapse top-nav full hide-on-large-only">
+			<i class="material-icons">menu</i>
+		</a>
+	</div>
+	<ul id="slide-out" class="side-nav fixed">
+		<li>
+			<div class="userView">
+				<div class="background"></div>
+				<a href="{{site.github_profile}}" target="_blank"><img class="circle z-depth-2" src="{{site.baseurl}}/assets/res/user.png"></a>
+				<span class="white-text name">{{site.user}}</span>
+				<span class="white-text email">{{site.user_email}}</span>
+			</div>
+		</li>
+		<li><a class="waves-effect" href="{{site.baseurl}}/"><i class="material-icons">home</i>Home</a></li>
+		<li><a class="waves-effect" href="{{site.baseurl}}/projects"><i class="material-icons">description</i>Projects</a></li>
+		<li><a class="waves-effect" href="{{site.baseurl}}/categories"><i class="material-icons">sort</i>Categories</a></li>
+		<li><a class="waves-effect" href="{{site.baseurl}}/tags"><i class="material-icons">label</i>Tags</a></li>
+		<li><a class="waves-effect" href="{{site.baseurl}}/feed.xml" target="_blank"><i class="material-icons">rss_feed</i>RSS</a></li>
+		<li><div class="divider"></div></li>
+		<li><a class="waves-effect" href="{{site.baseurl}}/about"><i class="material-icons">person</i>About</a></li>
+		<li><a class="waves-effect" href="{{site.baseurl}}/contact"><i class="material-icons">email</i>Contact</a></li>
+	</ul>
+</header>
+<main>
