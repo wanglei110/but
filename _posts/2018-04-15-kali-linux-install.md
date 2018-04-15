@@ -56,8 +56,9 @@ kali是linux其中一个发行版，基于Debian，前身是BackTrack（简称BT
 ![20180415144527264.jpg](https://i.loli.net/2018/04/15/5ad33ed9b7ebf.jpg)
 
 这是试用版本，需要购买密钥，鼓励购买正版，蛮穷的可以使用以下任一密钥：
+
 >FF31K-AHZD1-H8ETZ-8WWEZ-WUUVA
->CV7T2-6WY5Q-48EWP-ZXY7X-QGUWD
+>>CV7T2-6WY5Q-48EWP-ZXY7X-QGUWD
 
 ![20180415144552593.jpg](https://i.loli.net/2018/04/15/5ad33ed9ae9ca.jpg)
 
