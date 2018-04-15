@@ -48,7 +48,7 @@ GitHub是一个面向开源及私有软件项目的托管平台，也是一个�
 
 ---------------
 
-![svn-git](https://img-blog.csdn.net/20180331184953574?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180331184953574.png](https://i.loli.net/2018/04/15/5ad359a34859f.png)
 
 -----------
 GIthub Pages则是github上的一项功能，可以放置网页文件到指定文件夹，然后给你一个专属域名用于展示一些项目，但现在大多用来开发制作个人博客网站。接下来就一步步按照我曾经的步骤来搭建个人博客，顺便讲讲沿途遇到过的坑，如没有的提及请自行百度。
@@ -56,21 +56,21 @@ GIthub Pages则是github上的一项功能，可以放置网页文件到指定�
 ### 创建Github账号 <span id="2">
 
 github pages 功能依赖于github账号，没有的话先去[官网][gitreg]注册一个：
-![git-reg](https://img-blog.csdn.net/20180331192629516?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180331192629516.jpg](https://i.loli.net/2018/04/15/5ad359e00a5bb.jpg)
 然后好像要邮箱验证，就是填写的那个，点击那个验证链接就注册成功了。
 
 ### 创建仓库 <span id="3">
 
 有了自己的账号后，可以跟着官网的引导，创建自己的第一个仓库，就是 **repository**：
-![repository](https://img-blog.csdn.net/20180331193717261?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180331193717261.jpg](https://i.loli.net/2018/04/15/5ad359e5dd951.jpg)
 
 -------------------
 填好信息
-![creat-repo](https://img-blog.csdn.net/20180331195826465?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180331195826465.jpg](https://i.loli.net/2018/04/15/5ad359fb3ba18.jpg)
 
 --------------
 创建完成
-![complete](https://img-blog.csdn.net/20180331200133497?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180331200133497.jpg](https://i.loli.net/2018/04/15/5ad35a03b9186.jpg)
 
 ---------------
 
@@ -81,7 +81,7 @@ github pages 功能依赖于github账号，没有的话先去[官网][gitreg]注
 仓库建好了，接下来就是往里面装东西了，就是支撑博客首页的一些网页文件和配置文件，对于新手来说要自己编写这些文件就有点开玩笑了，所以可以选择使用已有的主题，你可以选择复制我的<https://github.com/knightyun/knightyun.github.io>，然后选择自己仓库，网页基础好的同学以后修改网页内容就行了。
 >##### 嫌修改麻烦可以跳过这一步，到后面的步骤选择喜欢的主题
 
-![fork](https://img-blog.csdn.net/20180331204755801?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180331204755801.jpg](https://i.loli.net/2018/04/15/5ad35a0cd1ddf.jpg)
 
 ------------------
 
@@ -89,19 +89,19 @@ github pages 功能依赖于github账号，没有的话先去[官网][gitreg]注
 
 然后我们来配置github pages
 
-![setting](https://img-blog.csdn.net/20180331200909318?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180331200909318.jpg](https://i.loli.net/2018/04/15/5ad35a1317bee.jpg)
 
 --------------------
 重命名，注意格式
-![rename](https://img-blog.csdn.net/20180331202913817?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180331202913817.jpg](https://i.loli.net/2018/04/15/5ad35a1ac689a.jpg)
 
 ----------------------
 把上面的页面向下滑，现在就可以访问了
-![website](https://img-blog.csdn.net/20180331203510375?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180331203510375.jpg](https://i.loli.net/2018/04/15/5ad35ad3a3f49.jpg)
 
 -------------------
 当然github也提供了一些主题供选择，点击上面的“choose a theme”按钮进行选择
-![theme](https://img-blog.csdn.net/20180331205610766?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180331205610766.jpg](https://i.loli.net/2018/04/15/5ad35ad9ad0e8.jpg)
 
 ---------------
 这个网站有更多主题工选择：<http://jekyllthemes.org/>，如有选择困难症请绕路 -_-
@@ -115,7 +115,7 @@ github pages 功能依赖于github账号，没有的话先去[官网][gitreg]注
 #### git配置 <span id="4.2">
 
 * 安装好后cmd输入 `git` 有反应则安装成功：
-![git-cmd](https://img-blog.csdn.net/20180331215746907?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180331215746907.jpg](https://i.loli.net/2018/04/15/5ad35adf42ae1.jpg)
 
 * 进行如下配置：
 
@@ -136,41 +136,41 @@ ssh-keygen -t rsa -C "*your_email@youremail.com*"
 >###### 注意这里不是在cmd里输入，是使用刚安装的 git bash 软件，可以在电脑菜单里面搜索
 
 然后会生成如下两个文件：
-![git-bash](https://img-blog.csdn.net/20180331221012285?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180331221012285.jpg](https://i.loli.net/2018/04/15/5ad35ae510df3.jpg)
 
 `id_rsa.pub` 就是我们待会需要的公钥文件，使用命令 `cat id_rsa.pub` 再将内容复制到剪切板，然后进入github账号设置里面粘贴
 
-![up-setting](https://img-blog.csdn.net/20180331221601652?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180331221601652.jpg](https://i.loli.net/2018/04/15/5ad35aea5e8c2.jpg)
 
 --------------------
 选择添加SSH key：
-![ssh-key](https://img-blog.csdn.net/20180331221949179?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180331221949179.jpg](https://i.loli.net/2018/04/15/5ad35afc4616a.jpg)
 
 -----------------
 把刚才复制的内容粘贴进去
-![add-key](https://img-blog.csdn.net/20180331222325449?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180331222325449.jpg](https://i.loli.net/2018/04/15/5ad35afc52683.jpg)
 
 ------------
 
 然后输入 `ssh -T git@github.com` 测试连通状态
 >###### 我的Windows版没有成功，不知道Linux是否成功，报错如下 ，应该是windows ssh配置问题
 
-![error](https://img-blog.csdn.net/20180331222821644?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180331222821644.jpg](https://i.loli.net/2018/04/15/5ad35b07f16b6.jpg)
 
 #### git Desktop版 <span id="4.3">
 
 如果你也出现以上状况，不必担心，git还能使用https协议连接，只不过要每次输入账号和密码，但是可以选择github官方提供的git desktop软件：
 >**这里我是下载过的**
 
-![git-desktop](https://img-blog.csdn.net/20180331223500277?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180331223500277.jpg](https://i.loli.net/2018/04/15/5ad35b2fb62f6.jpg)
 
 ---------------------------------
 界面如下，需要登录，以后提交文件就方便了，cmd也能使用git提交，不用每次输入密码
-![desktop-face](https://img-blog.csdn.net/20180331223916609?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180331223916609.jpg](https://i.loli.net/2018/04/15/5ad35b347f466.jpg)
 
 ----------------------------
 可以查看变化文件，甚至文件内变化的内容，commit 后点击 fetch 按钮提交
-![change](https://img-blog.csdn.net/20180401085504366?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180401085504366.jpg](https://i.loli.net/2018/04/15/5ad35c4838fe1.jpg)
 >###### 软件功能不算复杂，自己摸索一会就会了，图形界面的软件使得一些命令行的操作变得容易、友好。
 
 ### 创建本地仓库 <span id="5">
@@ -180,7 +180,7 @@ ssh-keygen -t rsa -C "*your_email@youremail.com*"
 `name` 是自己的昵称，`repository` 是自己的仓库名，不要忘记末尾的 **`.git`** 后缀。
 
 然后此文件夹下会多一个和你仓储名一样的文件夹，内部文件与远程仓库一样。
-![local-repo](https://img-blog.csdn.net/20180331230145814?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180331230145814.jpg](https://i.loli.net/2018/04/15/5ad35c4e8b088.jpg)
 绑定远程仓库，方便提交：
 
 	git remote add origin git@github.com:username/username.github.io.git
@@ -208,19 +208,19 @@ Jekyll是一个简单免费的生成博客网页的工具，可以绑定github�
 * **安装Ruby**：jekyll依赖于Ruby，需要提前安装，官网下载链接：<http://www.ruby-lang.org/en/downloads/>，windows/Linux/Mac的版本都有。
 * **安装gem**：官网链接<https://rubygems.org/pages/download>，貌似安装ruby后自带gem。
 cmd命令行输入 `gem` 检查是否安装成功：
-![gem](https://img-blog.csdn.net/20180331213445607?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180331213445607.jpg](https://i.loli.net/2018/04/15/5ad35c5295bb6.jpg)
 * **安装jekyll**：cmd命令行输入 `gem install jekyll`
-![install-jekyl](https://img-blog.csdn.net/20180331213739704?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70) 
+![20180331213739704.jpg](https://i.loli.net/2018/04/15/5ad35c57c50b5.jpg)
 
 #### 开启jekyll <span id ="6.3">
 
 直接输入 `jekyll s` 开启jekyll服务，windows可能会遇到以下问题：
-![jekyll-error](https://img-blog.csdn.net/20180401085818819?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180401085818819.jpg](https://i.loli.net/2018/04/15/5ad35c5c2c9f1.jpg)
 >###### * 使用 `bundle exec jekyll s` 命令就可以运行了，如果提示没有安装 `bundler` ，就 `gem install bundler` 再 `bundle install`
 >###### * 可能还会提示没有安装其他组件，记下名称， `gem install xxx` 就可以了
 
 然后就可以成功运行了，退出按 `ctrl + c ` 键
-![jekyllstart](https://img-blog.csdn.net/20180401085938699?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180401085938699.jpg](https://i.loli.net/2018/04/15/5ad35c5fa50e4.jpg)
 >###### * 运行时保持这个窗口不要关闭，浏览器输入 `127.0.0.1:4000` 或 `localhost:4000` 进行预览
 >###### * 不过我的windows预览效果不太好，加载不出图片，其他系统没试过
 
@@ -236,27 +236,27 @@ Jekyll使用[Markdown][md]语言书写博客，markdown是一种简单易读的�
 不过每次都用编辑器写好 `.md` 文件然后用 git 上传到 github 根目录下的 **`_post`** 文件夹好像很繁琐，Jekyll官方提供了一款方便的博客编辑器，方便书写、预览、上传，官网链接：<http://jekyllwriter.com/>，三种系统版本都有。接下来简单介绍一些使用：
 
 安装后主界面：
-![jekyll-writer](https://img-blog.csdn.net/20180401093410604?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180401093410604.jpg](https://i.loli.net/2018/04/15/5ad35c729800f.jpg)
 
 ------------------------------------
 添加账号
-![add-github](https://img-blog.csdn.net/20180401093825352?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180401093825352.jpg](https://i.loli.net/2018/04/15/5ad35c786326c.jpg)
 
 配置 token
-![add-token](https://img-blog.csdn.net/20180401094705731?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180401094705731.jpg](https://i.loli.net/2018/04/15/5ad35c7dc4e18.jpg)
 保存后会生成一个 token ，返回软件粘贴进输入框就行了
-![git-token](https://img-blog.csdn.net/20180401094911796?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180401094911796.jpg](https://i.loli.net/2018/04/15/5ad35c836423d.jpg)
 
 ----------
 写完后保存并上传
-![blog-commit](https://img-blog.csdn.net/20180401094200638?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180401094200638.jpg](https://i.loli.net/2018/04/15/5ad35c88b1b6f.jpg)
 
 -----------------------------
 可以在这里查看和修改账户下的博客
-![look](https://img-blog.csdn.net/2018040109525674?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![2018040109525674.jpg](https://i.loli.net/2018/04/15/5ad35c8e19921.jpg)
 
 ----------------
-![refresh](https://img-blog.csdn.net/20180401095443179?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180401095443179.jpg](https://i.loli.net/2018/04/15/5ad35c92b3b2b.jpg)
 
 >###### 软件其他功能还在完善，自行摸索
 
@@ -267,7 +267,7 @@ Jekyll使用[Markdown][md]语言书写博客，markdown是一种简单易读的�
 还有一个神奇的网站：<https://sm.ms/>，也能用
 
 然后在 jekyll writer中配置一下：
-![qiniu](https://img-blog.csdn.net/20180401100517435?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180401100517435.jpg](https://i.loli.net/2018/04/15/5ad35c9795b52.jpg)
 
 ----------------
 >###### 当然我用的是CSDN在线编辑器写博客，图片能直接上传到CSDN上，直接生成链接，其工具也能用
@@ -282,19 +282,19 @@ markdown的图片插入方式 `![title](http://xxx.com/xxx.png/)` 是没办法�
 自己的博客网站就建好了，想要分享出去的小伙伴就要想办法让自己的网页能被百度等搜索引擎搜到，或者这样，百度搜索： `site:name.github.io` ，出现错误页面就表示搜不到。
 
 很遗憾，百度是禁止抓取 github pages 的内容的，可以购买一个自己的专属域名，有很多选择，阿里云、腾讯、花生壳域名等，百度站长平台有个链接提交功能，但是它只是加速爬取，并未解决收录：
-![shoulul](https://img-blog.csdn.net/20180401103839442?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180401103839442.jpg](https://i.loli.net/2018/04/15/5ad35ca96986d.jpg)
 
 ----------------
 貌似它们的熊掌号服务可以解决这问题：
-![bear](https://img-blog.csdn.net/20180401104100873?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180401104100873.jpg](https://i.loli.net/2018/04/15/5ad35cb06c1c5.jpg)
 
 ---------------
 然后，就没有然后了 -_-
-![shenhe](https://img-blog.csdn.net/20180401104147731?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180401104147731.jpg](https://i.loli.net/2018/04/15/5ad35cb55c7cd.jpg)
 
 ---------------
 以花生壳域名为例，其它大同小异，配置一下：
-![cname](https://img-blog.csdn.net/20180401102926509?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0tOSUdIX1lVTg==/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![20180401102926509.jpg](https://i.loli.net/2018/04/15/5ad35cb937be5.jpg)
 
 ------------------
 再添加两条 github 的ip的 A记录值 ：`192.30.252.153` `192.30.252.154`
