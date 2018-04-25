@@ -1,5 +1,5 @@
 ---
-title: C语言之随机值(rand())的使用方法
+title: C语言之随机数函数(rand())的使用方法
 layout: post
 categories: C语言
 tags: C语言随机数 伪随机数 rand() srand()
