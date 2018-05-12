@@ -2,6 +2,8 @@
 layout: page
 title: "Contact me"
 css: ["contact.css"]
-
 ---
-{% include contact.html %}
+<div class="col s12">
+	<p>给我发邮件：<a href="mailto:2386209384@qq.com">2386209384@qq.com</a></p><br>
+	<p>或者：<a href="http://free.3v.do/gbook/index.asp?username=knightyun" target="_blank">给我留言</a></p>
+</div>
