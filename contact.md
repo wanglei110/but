@@ -1,1 +1,1 @@
----layout: pagetitle: "Contact"css: ["contact.css"]---{% include contact.html %}
+---layout: pagetitle: "Contact"css: ["contact.css"]---<div class="col s12">  <div class="icontain">    <iframe src="https://github.com/knightyun/">Loading...</iframe>  </div></div>
