@@ -1,1 +1,1 @@
----layout: pagetitle: "Contact"css: ["contact.css"]---<div class="col s12">给我发邮件：<address>2386209384@qq.com</address><br/><br/>或者：<a href="http://free.3v.do/gbook/index.asp?username=knightyun">给我留言</a></div>
+---layout: pagetitle: "Contact"css: ["contact.css"]---<div class="col s12"><p>给我发邮件：<a href="mailto:2386209384@qq.com">2386209384@qq.com</a></p><p>或者：<a href="http://free.3v.do/gbook/index.asp?username=knightyun">给我留言</a></p></div>
