@@ -83,7 +83,7 @@
 </script>
 <header>
 	<nav class="top-nav">
-		<div class="nav-wrapper">
+		<div class="nav-wrapper" id="changebc">
 			<div class="container">
 				<a class="page-title" href="{{site.baseurl}}/">{{site.title}}</a>
 				<p class="head-message">学习&nbsp;&nbsp;总结&nbsp;&nbsp;分享&nbsp;&nbsp;提升</p>
@@ -113,5 +113,18 @@
 		<li><a class="waves-effect" href="{{site.baseurl}}/about"><i class="material-icons">person</i>About</a></li>
 		<li><a class="waves-effect" href="{{site.baseurl}}/contact"><i class="material-icons">email</i>Contact</a></li>
 	</ul>
+	<script>
+		// change background color
+		var cbc = document.getElementById("changebc");
+		var x = 0;
+		setInterval(function(){
+			cbc.style.background = "linear-gradient(" + x + "deg, #3AA17E 10%, #00537E 90%)";
+			x++;
+			if (x == 360) 
+			{
+				x = 0;
+			}
+		}, 30);
+	</script>
 </header>
 <main>
