@@ -28,7 +28,7 @@ css:
 
 文本内容的**父元素**就是 `div` ，这样就内实现水平居中，效果如下：
 
-<table><tr><td bgcolor=#ccc><div align="center"><b>居中内容</b></div></td></tr></table>
+<div align="center" markdown="1"><b>居中内容</b></div>
 
 #### 块状定宽元素
 
@@ -50,7 +50,7 @@ css:
 
 实现效果如下：
 
-<table><tr><td bgcolor=#ccc><div align="center"><b>居中内容</b></div></td></tr></table>
+<div align="center"><b>居中内容</b></div>
 
 #### 块状不定宽
 
@@ -83,7 +83,7 @@ css:
 
 效果如下：
 
-<table><tr><td bgcolor=#ccc><div align="center"><b>居中内容</b></div></td></tr></table>
+<div align="center"><b>居中内容</b></div>
 
 ##### 2、设置为行内元素
 
@@ -105,7 +105,7 @@ css:
 
 效果为：
 
-<table><tr><td bgcolor=#ccc><div align="center"><b>居中内容</b></div></td></tr></table>
+<div align="center"><b>居中内容</b></div>
 
 **注：**
 
@@ -134,7 +134,7 @@ left: -50%;
 这里要**注意**的是分别设置**父元素**的 `50%` 和**子元素**的 `-50%`。
 实现效果如下：
 
-<table><tr><td bgcolor=#ccc><div align="center"><b>居中内容</b></div></td></tr></table>
+<div align="center"><b>居中内容</b></div>
 
 ### 垂直居中
 
@@ -164,13 +164,15 @@ css:
 
 效果如下：
 
-<table>
-	<tr>
-		<td bgcolor=#ccc height=200>
-			<div><b>居中内容</b></div>
-		</td>
-	</tr>
-</table>
+<pre>
+
+
+
+居中内容
+
+
+
+</pre>
 
 >**这里需要注意的是关键词“单行文本”，如果使用这种方法但是一行文本超过宽度限制的话，某些内容就会脱离元素块，子元素有多行的话，这几行就会并排居中，并保持设置的行高。**
 
@@ -212,15 +214,15 @@ css:
 
 效果如下：
 
-<table>
-	<tr>
-		<td bgcolor=#ccc height=200>
-			<div><b>居中内容</b></div>
-			<div><b>居中内容</b></div>
-			<div><b>居中内容</b></div>
-		</td>
-	</tr>
-</table>
+<pre>
+
+
+
+居中内容
+
+
+
+</pre>
 
 ##### 2、设置 table-cell
 
@@ -251,14 +253,14 @@ css:
 
 效果如下：
 
-<table>
-	<tr>
-		<td bgcolor=#ccc height=200>
-			<div><b>居中内容</b></div>
-			<div><b>居中内容</b></div>
-			<div><b>居中内容</b></div>
-		</td>
-	</tr>
-</table>
+<pre>
+
+
+
+居中内容
+
+
+
+</pre>
 
 这种方法除了兼容性问题外，同时也改变了 **display**类型，会在某些方面带来不便。
