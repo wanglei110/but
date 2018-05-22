@@ -28,7 +28,7 @@ css:
 
 文本内容的**父元素**就是 `div` ，这样就内实现水平居中，效果如下：
 
-<div align="center" markdown="1"><b>居中内容</b></div>
+<div align="center"><b>居中内容</b></div>
 
 #### 块状定宽元素
 
