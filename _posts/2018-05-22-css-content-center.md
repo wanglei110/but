@@ -206,9 +206,12 @@ css:
 
 ``` css
 .txt {
+        height: 300px;
 	background-color: #ccc;
 }
 ```
+
+>**这里的父元素就是 td，父元素的高度必须确定，就要为其设置 height。**
 
 **注意**这里的 p 元素是 **inline** 类型的，所以设置 `vertical-align: middle` 的话会出现错误，若果是图片元素 img 的话，就可以设置 `vertical-align: middle`，但是由于 td 标签默认，所以都可以不写。
 
@@ -226,7 +229,7 @@ css:
 
 ##### 2、设置 table-cell
 
-第二种方法是把要垂直居中显示的元素设置为**table-cell (表格单元)**类型：`display: table-cell;`，然后设置 `vertical-align: middle`就能实现元素垂直居中。
+第二种方法是把要垂直居中显示的元素的父元素设置为**table-cell (表格单元)**类型：`display: table-cell;`，然后设置 `vertical-align: middle`就能实现元素垂直居中。
 
 但是这个方法存在兼容性问题，**chrome, firefox, IE8以上**才支持这个操作。
 
@@ -245,11 +248,14 @@ css:
 
 ``` css
 .txt {
+        height: 300px;
 	background-color: #ccc;
 	display: table-cell;
 	vertical-align: middle;
 }
 ```
+
+>**同样，要为父元素 div 设置高度 height**
 
 效果如下：
 
