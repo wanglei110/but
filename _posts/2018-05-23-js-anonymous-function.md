@@ -73,17 +73,6 @@ html文档中的javascript语句是写在 `<script></script>` 中的，每条语
 
 ``` html
 <script>
-	setTimeout((function(){
-		var x = 9;
-		alert(x);
-	})(), 2000);
-</script>
-```
-
-也可以是：
-
-``` html
-<script>
 	var x = 9;
 	setTimeout("alert(x)", 2000);
 </script>
@@ -95,7 +84,7 @@ html文档中的javascript语句是写在 `<script></script>` 中的，每条语
 
 这样写并不会出错。
 
-所以这个函数 `setTimeout()` 的参数可以是一个**不用立即执行**的匿名函数 `function(){}`，也可以是一个**立即执行**的匿名函数 `(function(){})()` 或语句块，从而进行**参数传递**。
+所以这个函数 `setTimeout()` 的参数是一个**不用立即执行**的匿名函数 `function(){}`，也可以是一个语句块，从而进行**参数传递**。
 
 通俗讲，这里加引号的语句块相当于不加引号的匿名函数。
 
