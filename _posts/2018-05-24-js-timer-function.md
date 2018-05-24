@@ -5,10 +5,6 @@ categories: JavaScript
 excerpt: Javascript计时函数的详细介绍
 tags: Javascript计时器 setTimeout setInterval
 ---
-------------------
-文章出自个人博客<>，转载请申明。
-
----------------------
 Javascript中和大多数语言一样，存在计时函数，使某语句或函数不用立即执行，可以延时设定的时间值之后再执行。
 
 #### setTimeout() 方法
