@@ -10,7 +10,7 @@ excerpt: Javascript中事件监听addEventListener与on事件的区别与举例�
 Javascript中可以对一些页面的事件设定触发值，例如常用的点击 `onclick`，鼠标移动 `onmousemove`，或者移动端屏幕点击 `ontouchstart`，其它类似的还有 `onmousedown`, `onmouseup`, `onchange`, `onfocus`, `onmouseenter`, `ontouchmove`, `ontouchend` 等等，可以对其设定值来实现事件触发后执行的操作，例如：
 
 ``` html
-<h1 onclick="alert("hello");">Click me</h1>
+<h1 onclick="alert('hello');">Click me</h1>
 ```
 
 点击后就会弹出提示框，也可以这样写：
