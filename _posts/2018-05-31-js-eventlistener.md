@@ -57,11 +57,11 @@ Javascript中可以对一些页面的事件设定触发值，例如常用的点�
 	var div1 = document.getElementById("div1");
 	if (div1.addEventListener) {
 		div1.addEventListener('click', function(){
-			this.innerHTML = "your broswer is compatible with addEventListener!";
+			this.innerHTML = "your browser is compatible with addEventListener!";
 		});
 	} else if (div1.attachEvent) {
 		div1.attachEvent('click', function(){
-			this.innerHTML = "your broswer is not compatible with addEventListener!"
+			this.innerHTML = "your browser is not compatible with addEventListener!"
 		});
 	}
 </script>
